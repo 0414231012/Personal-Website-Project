@@ -1,0 +1,90 @@
+ ol {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+        }
+ .music-credit {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
+        }
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    }
+
+li img {
+    flex-shrink: 0;
+    margin-right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 500ms ease;
+    }
+
+li img:hover {
+    width: 150px;
+    }
+
+body{
+    background-color: rgb(0, 20, 56);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     }
+
+a{
+    color:aqua
+    }
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+th{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    }
+#title{
+    background-color: #1e2a4a;
+    border-radius: 30px;
+    padding: 20px 40px;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    }
+
+li, a {
+    transition: 1s;
+        }
+li:hover,
+a:hover {
+    color: aqua;
+    font-size: 120%;
+        }
+
+#pueblo-pic {
+    background-color: white;
+    position: relative;
+    top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    max-width: 90vw;
+        }
+
+audio {
+    height: 20px;
+        }
