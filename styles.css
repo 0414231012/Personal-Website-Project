@@ -3,11 +3,7 @@
     margin-left: auto;
     margin-right: auto;
         }
- .music-credit {
-    margin-top: -10px;
-    margin-bottom: 10px;
-    display: block;
-        }
+        
 li {
     display: flex;
     flex-direction: column;
